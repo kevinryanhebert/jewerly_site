@@ -2,8 +2,8 @@ import React from "react";
 import '../App.css'
 import Navbar from "../util/navbarUtil";
 
-const NecklacePage = () => {
-    return(
+const LandingPage = () => {
+    return (
         <div>
             <header>
                 <Navbar />
@@ -43,4 +43,4 @@ const NecklacePage = () => {
     );
 };
 
-export default NecklacePage;
+export default LandingPage;
