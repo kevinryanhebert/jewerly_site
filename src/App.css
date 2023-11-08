@@ -5,11 +5,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  color: white;
 }
 
 body {
-  font-family: 'Dosis', sans-serif;
-  background-color: #333;
+  font-family: 'Dosis', sans-serif !important;
+  background-color: #333 !important;
 }
 
 .logo {
@@ -130,3 +131,34 @@ header ul a {
   font-size: 1.3rem;
 }
 
+.contact__form .form-control {
+  padding: 1.357rem .75rem;
+  line-height: 1.5;
+  color: white ;
+  background-color: #333 !important;
+  border-radius: 0 !important;
+  border: 1px solid white;
+}
+
+.contact__form input.form-control {
+  margin-bottom: 2em;
+  height: calc(2.5em + .75rem + 2px);
+  color: white;
+}
+
+.btn {
+  color: black !important;
+  background-color: white !important;
+}
+
+.btn:hover {
+  color: white;
+}
+
+textarea.form-control {
+  color: white !important;
+}
+
+::placeholder {
+  color: white !important;
+}

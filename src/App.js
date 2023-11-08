@@ -1,6 +1,8 @@
 import { Routes, Route } from 'react-router-dom';
 import ContactPage from './pages/contactPage';
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import './App.css'
 import LandingPage from './pages/landingPage';
 import ChainPage from './pages/chainPage';
 import DiamondPage from './pages/diamondPage';

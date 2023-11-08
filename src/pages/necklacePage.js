@@ -8,7 +8,7 @@ const NecklacePage = () => {
             <header>
                 <Navbar />
             </header>
-            <h1>hello</h1>
+            <h1>hello79870987</h1>
             <div className="directory">
                 <nav>
                     <ul>

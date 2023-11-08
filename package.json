@@ -1,7 +1,7 @@
 {
   "name": "jewelry_site",
   "version": "0.1.0",
-  "homepage": "https://kevinryanhebert.github.io/react-gh-pages",
+  "homepage": "https://kevinryanhebert.github.io/",
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
@@ -14,6 +14,7 @@
     "@testing-library/user-event": "^13.5.0",
     "bootstrap": "^5.3.2",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.9.1",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.18.0",
     "react-scripts": "5.0.1",
