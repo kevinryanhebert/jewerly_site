@@ -34,7 +34,7 @@ const ContactPage = () => {
                         </address>
                     </Col>
 
-                    <Col lg='7' className="d-flex align-items-center" >
+                    <Col lg={7} className="d-flex align-items-center">
                         <form className="contact__form w-100">
                             <Row>
                                 <Col lg='6' className="form-group">
@@ -67,36 +67,38 @@ const ContactPage = () => {
             </Container>
 
             {/*this handles the bottom directory*/}
-            <div className="directory">
-                <nav>
-                    <ul>
-                        <a href="/">
-                            <li>Home</li>
-                        </a>
-                        <a href="ringPage">
-                            <li>rings</li>
-                        </a>
-                        <a href='diamondPage'>
-                            <li>diamonds</li>
-                        </a>
-                        <a href="earringPage">
-                            <li>earrings</li>
-                        </a>
-                        <a href="necklacePage">
-                            <li>necklaces</li>
-                        </a>
-                        <a href="watchesPage">
-                            <li>watches</li>
-                        </a>
-                        <a href="chainPage">
-                            <li>chains</li>
-                        </a>
-                        <a href="contactPage">
-                            <li>contact us</li>
-                        </a>
-                    </ul>
-                </nav>
-            </div>
+            <footer>
+                <div className="directory">
+                    <nav>
+                        <ul>
+                            <a href="/">
+                                <li>Home</li>
+                            </a>
+                            <a href="ringPage">
+                                <li>rings</li>
+                            </a>
+                            <a href='diamondPage'>
+                                <li>diamonds</li>
+                            </a>
+                            <a href="earringPage">
+                                <li>earrings</li>
+                            </a>
+                            <a href="necklacePage">
+                                <li>necklaces</li>
+                            </a>
+                            <a href="watchesPage">
+                                <li>watches</li>
+                            </a>
+                            <a href="chainPage">
+                                <li>chains</li>
+                            </a>
+                            <a href="contactPage">
+                                <li>contact us</li>
+                            </a>
+                        </ul>
+                    </nav>
+                </div>
+            </footer>
         </div>
         
     );
